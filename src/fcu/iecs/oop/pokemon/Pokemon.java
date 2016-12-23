@@ -6,9 +6,7 @@ public abstract class Pokemon implements Fightable{
 	private		  String  	  nickName;		
 	private		  int         cp;
 	
-	public void attack(){
-		
-	}
+	public abstract void attack();
 
 	public Pokemon(String nickName, PokemonType type, int cp) {
 		super();
